@@ -1,10 +1,10 @@
 players:
-- count: 16
+- count: 17
   name: AdQ
-  score: 8.5
-- count: 15
+  score: 8.0
+- count: 16
   name: Sincerissima
-  score: 9.25
+  score: 10.25
 - count: 12
   name: TFDR
   score: 7.5
