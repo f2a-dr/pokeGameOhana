@@ -93,6 +93,28 @@ def addScore(filename):
     return None
 
 def addPesca(filename):
+    scores = readFile(filename)
+    cardScores = {'olo': 0.5, 'ex': 1, 'FA': 1, 'exFA': 2, 'rainbow':2, 'shiny': 1, 'shiny-ex':2, 'immersive': 3, 'gold':5,}
+    names = [scores['players'][i]['name'] for i in range(len(scores['players']))]
+    namePescatore = input('Chi ha pescato?\nPossibili nomi (attenzione alle maiuscole) {}\n'.format(names))
+    if namePescatore  not in names:
+        print('ERRORE: {} non è un giocatore.'.format(namePescatore))
+        return None
+    else:
+        positionPescatore = names.index(namePescatore)
+        card = input('Inserire la tipologia di carta trovata:\nPossibili tipologie {}\n'.format([i for i in cardScores]))
+        if not(card in cardScores):
+            print('ERRORE: {} non è una tipologia di carta.'.format(card))
+            scorePescatore = None
+        else:
+            scorePescatore = cardScores[card]*0.5
+        if scorePescatore == None:
+            print('ERRORE: i dati della pesca non sono stati inseriti correttamente.')
+            return None
+        else:
+            scores['players'][positionPescatore]['score'] += scorePescatore
+            with open(filename, 'w') as f:
+                yaml.dump(scores, f)
     return None
 
 if __name__ == '__main__':
@@ -102,11 +124,15 @@ if __name__ == '__main__':
     add = input("Vuoi inserire uno sbusto?[y/N] ")
     if add == '' or add == 'n' or add == 'no' or add == 'No' or add == 'N':
         add = False
-        show = input("Vuoi vedere i punteggi?[Y/n] ")
-        if show == '' or show == 'y' or show == 'yes' or show == 'Yes' or show == 'Y':
-            printScores(filename)
-        elif show == 'n' or show == 'no' or show == 'No' or show == 'N':
-            print("Non c'è altro da fare. Bye bye")
+        pesca = input("Vuoi inserire una pesca?[y/N] ")
+        if pesca == '' or pesca == 'y' or pesca == 'yes' or pesca == 'Yes' or pesca == 'Y':
+            addPesca(filename)
+        elif pesca == 'n' or pesca == 'no' or pesca == 'No' or pesca == 'N':
+            show = input("Vuoi vedere i punteggi?[Y/n] ")
+            if show == '' or show == 'y' or show == 'yes' or show == 'Yes' or show == 'Y':
+                printScores(filename)
+            elif show == 'n' or show == 'no' or show == 'No' or show == 'N':
+                print("Non c'è altro da fare. Bye bye")
     elif add == 'y' or add == 'yes' or add == 'Yes' or add == 'Y':
         add = True
         addScore(filename)
