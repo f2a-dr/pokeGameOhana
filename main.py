@@ -92,6 +92,9 @@ def addScore(filename):
                 yaml.dump(scores, f)
     return None
 
+def addPesca(filename):
+    return None
+
 if __name__ == '__main__':
 
     filename = "scores.yaml"
