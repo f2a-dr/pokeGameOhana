@@ -127,6 +127,7 @@ if __name__ == '__main__':
         pesca = input("Vuoi inserire una pesca?[y/N] ")
         if pesca == 'y' or pesca == 'yes' or pesca == 'Yes' or pesca == 'Y':
             addPesca(filename)
+            print("Per favore, dopo aver inserito uno sbusto ricorda di fare commit e push per tenere aggiornato il file dei punteggi")
         elif pesca == '' or pesca == 'n' or pesca == 'no' or pesca == 'No' or pesca == 'N':
             show = input("Vuoi vedere i punteggi?[Y/n] ")
             if show == '' or show == 'y' or show == 'yes' or show == 'Yes' or show == 'Y':
