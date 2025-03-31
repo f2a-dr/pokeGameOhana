@@ -125,9 +125,9 @@ if __name__ == '__main__':
     if add == '' or add == 'n' or add == 'no' or add == 'No' or add == 'N':
         add = False
         pesca = input("Vuoi inserire una pesca?[y/N] ")
-        if pesca == '' or pesca == 'y' or pesca == 'yes' or pesca == 'Yes' or pesca == 'Y':
+        if pesca == 'y' or pesca == 'yes' or pesca == 'Yes' or pesca == 'Y':
             addPesca(filename)
-        elif pesca == 'n' or pesca == 'no' or pesca == 'No' or pesca == 'N':
+        elif pesca == '' or pesca == 'n' or pesca == 'no' or pesca == 'No' or pesca == 'N':
             show = input("Vuoi vedere i punteggi?[Y/n] ")
             if show == '' or show == 'y' or show == 'yes' or show == 'Yes' or show == 'Y':
                 printScores(filename)
