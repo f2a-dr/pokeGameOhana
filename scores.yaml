@@ -1,5 +1,5 @@
 players:
-- count: 24
+- count: 25
   name: AdQ
   score: 8.75
 - count: 21
@@ -8,6 +8,6 @@ players:
 - count: 17
   name: TFDR
   score: 7.0
-- count: 36
+- count: 37
   name: Giacomino
   score: 21.5
