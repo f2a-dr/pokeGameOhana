@@ -1,13 +1,13 @@
 players:
-- count: 34
+- count: 36
   name: AdQ
-  score: 11.5
-- count: 28
+  score: 12.25
+- count: 30
   name: Sincerissima
-  score: 17.5
-- count: 25
+  score: 17.75
+- count: 27
   name: TFDR
-  score: 11.0
-- count: 43
+  score: 11.5
+- count: 44
   name: Giacomino
-  score: 21.75
+  score: 22.75
