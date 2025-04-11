@@ -64,79 +64,123 @@ def scoreCalculator():
 def printScores(filename):
     scores = readFile(filename)
     print()
+    for expansion in list(scores['players']['AdQ'].keys()):
+        print('Classifica relativa alla seguente espansione: {}'.format(expansion))
+        print ('{:>15} {:^10} {:^10} {:^16}'.format('', 'Buste', 'Punti', 'Punti per busta'))
+        for player in list(scores['players'].keys()):
+            name = player
+            points = scores['players'][player][expansion]['score']
+            count = scores['players'][player][expansion]['count']
+            print('{:>15} {:^10} {:^10} {:^16.2}'.format(name, count, points, [points/count if count > 0 else 0.0][0]))
+        print('\n')
+
+    print('Classifica totale:')
     print ('{:>15} {:^10} {:^10} {:^16}'.format('', 'Buste', 'Punti', 'Punti per busta'))
-    for i in range(len(scores['players'])):
-        name = scores['players'][i]['name']
-        points = scores['players'][i]['score']
-        count = scores['players'][i]['count']
-        print('{:>15} {:^10} {:^10} {:^16.2}'.format(name, count, points, points/count))
+    for player in list(scores['players'].keys()):
+        name = player
+        points = 0
+        count = 0
+        for expansion in list(scores['players'][player].keys()):
+            points += scores['players'][player][expansion]['score']
+            count += scores['players'][player][expansion]['count']
+        print('{:>15} {:^10} {:^10} {:^16.2}'.format(name, count, points, [points/count if count > 0 else 0.0][0]))
     return None
 
 def addScore(filename):
     scores = readFile(filename)
-    names = [scores['players'][i]['name'] for i in range(len(scores['players']))]
+    names = list(scores['players'].keys())
     nameSbusto= input('Chi ha sbustato?\nPossibili nomi (attenzione alle maiuscole) {}\n'.format(names))
     if nameSbusto not in names:
         print('ERRORE: {} non è un giocatore.'.format(nameSbusto))
         return None
     else:
-        positionSbusto = names.index(nameSbusto)
-        scoreSbusto = scoreCalculator()
-        if scoreSbusto == None:
-            print('ERRORE: i dati dello sbusto non sono stati inseriti correttamente.')
+        expansions = list(scores['players'][nameSbusto].keys())
+        expSbusto = input('Quale espansione è stata sbustata?\nPossibili espansioni (attenzione alle maiuscole) {}\n'.format(expansions))
+        if expSbusto not in expansions:
+            print('ERRORE: {} non è un espansione.'.format(expSbusto))
             return None
         else:
-            scores['players'][positionSbusto]['count'] += 1
-            scores['players'][positionSbusto]['score'] += scoreSbusto
-            with open(filename, 'w') as f:
-                yaml.dump(scores, f)
+            scoreSbusto = scoreCalculator()
+            if scoreSbusto == None:
+                print('ERRORE: i dati dello sbusto non sono stati inseriti correttamente.')
+                return None
+            else:
+                scores['players'][nameSbusto][expSbusto]['count'] += 1
+                scores['players'][nameSbusto][expSbusto]['score'] += scoreSbusto
+                with open(filename, 'w') as f:
+                    yaml.dump(scores, f)
     return None
 
 def addPesca(filename):
     scores = readFile(filename)
     cardScores = {'olo': 0.5, 'ex': 1, 'FA': 1, 'exFA': 2, 'rainbow':2, 'shiny': 1, 'shiny-ex':2, 'immersive': 3, 'gold':5,}
-    names = [scores['players'][i]['name'] for i in range(len(scores['players']))]
+    names = list(scores['players'].keys())
     namePescatore = input('Chi ha pescato?\nPossibili nomi (attenzione alle maiuscole) {}\n'.format(names))
     if namePescatore  not in names:
         print('ERRORE: {} non è un giocatore.'.format(namePescatore))
         return None
     else:
-        positionPescatore = names.index(namePescatore)
-        card = input('Inserire la tipologia di carta trovata:\nPossibili tipologie {}\n'.format([i for i in cardScores]))
-        if not(card in cardScores):
-            print('ERRORE: {} non è una tipologia di carta.'.format(card))
-            scorePescatore = None
-        else:
-            scorePescatore = cardScores[card]*0.5
-        if scorePescatore == None:
-            print('ERRORE: i dati della pesca non sono stati inseriti correttamente.')
+        expansions = list(scores['players'][namePescatore].keys())
+        expPescatore = input('Da quale espansione è stata effettuata la pesca?\nPossibili espansioni (attenzione alle maiuscole) {}\n'.format(expansions))
+        if expPescatore not in expansions:
+            print('ERRORE: {} non è un espansione.'.format(expPescatore))
             return None
         else:
-            scores['players'][positionPescatore]['score'] += scorePescatore
-            with open(filename, 'w') as f:
-                yaml.dump(scores, f)
+            card = input('Inserire la tipologia di carta trovata:\nPossibili tipologie {}\n'.format([i for i in cardScores]))
+            if not(card in cardScores):
+                print('ERRORE: {} non è una tipologia di carta.'.format(card))
+                scorePescatore = None
+            else:
+                scorePescatore = cardScores[card]*0.5
+            if scorePescatore == None:
+                print('ERRORE: i dati della pesca non sono stati inseriti correttamente.')
+                return None
+            else:
+                scores['players'][namePescatore][expPescatore]['score'] += scorePescatore
+                with open(filename, 'w') as f:
+                    yaml.dump(scores, f)
+    return None
+
+def addExpansion(filename, name):
+    if name == '':
+        print('ERRORE: inserire un nome valido.')
+        return None
+    else:
+        with open(filename) as f:
+            scores = yaml.load(f, Loader=yaml.FullLoader)
+        for player in list(scores['players'].keys()):
+            if name not in list(scores['players'][player].keys()):
+                scores['players'][player][name] = {'count': 0, 'score': 0}
+        with open(filename, 'w') as f:
+            yaml.dump(scores, f)
     return None
 
 if __name__ == '__main__':
 
     filename = "scores.yaml"
 
-    add = input("Vuoi inserire uno sbusto?[y/N] ")
+    add = input("Vuoi inserire una nuova espansione?[y/N] ")
     if add == '' or add == 'n' or add == 'no' or add == 'No' or add == 'N':
-        add = False
-        pesca = input("Vuoi inserire una pesca?[y/N] ")
-        if pesca == 'y' or pesca == 'yes' or pesca == 'Yes' or pesca == 'Y':
-            addPesca(filename)
+        add = input("Vuoi inserire uno sbusto?[y/N] ")
+        if add == '' or add == 'n' or add == 'no' or add == 'No' or add == 'N':
+            add = False
+            pesca = input("Vuoi inserire una pesca?[y/N] ")
+            if pesca == 'y' or pesca == 'yes' or pesca == 'Yes' or pesca == 'Y':
+                addPesca(filename)
+                print("Per favore, dopo aver inserito uno sbusto ricorda di fare commit e push per tenere aggiornato il file dei punteggi")
+            elif pesca == '' or pesca == 'n' or pesca == 'no' or pesca == 'No' or pesca == 'N':
+                show = input("Vuoi vedere i punteggi?[Y/n] ")
+                if show == '' or show == 'y' or show == 'yes' or show == 'Yes' or show == 'Y':
+                    printScores(filename)
+                elif show == 'n' or show == 'no' or show == 'No' or show == 'N':
+                    print("Non c'è altro da fare. Bye bye")
+        elif add == 'y' or add == 'yes' or add == 'Yes' or add == 'Y':
+            add = True
+            addScore(filename)
             print("Per favore, dopo aver inserito uno sbusto ricorda di fare commit e push per tenere aggiornato il file dei punteggi")
-        elif pesca == '' or pesca == 'n' or pesca == 'no' or pesca == 'No' or pesca == 'N':
-            show = input("Vuoi vedere i punteggi?[Y/n] ")
-            if show == '' or show == 'y' or show == 'yes' or show == 'Yes' or show == 'Y':
-                printScores(filename)
-            elif show == 'n' or show == 'no' or show == 'No' or show == 'N':
-                print("Non c'è altro da fare. Bye bye")
-    elif add == 'y' or add == 'yes' or add == 'Yes' or add == 'Y':
+    elif add == 'yes' or add == 'y' or add == 'Yes' or add == 'Y':
         add = True
-        addScore(filename)
-        print("Per favore, dopo aver inserito uno sbusto ricorda di fare commit e push per tenere aggiornato il file dei punteggi")
+        name = input('Inserire il nome dell\'espansione:\n')
+        addExpansion(filename, name)
     else:
         print('ERRORE: inserire `yes` o `no`.')

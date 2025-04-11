@@ -1,13 +1,17 @@
 players:
-- count: 49
-  name: AdQ
-  score: 15.75
-- count: 41
-  name: Sincerissima
-  score: 19.75
-- count: 37
-  name: TFDR
-  score: 16.0
-- count: 54
-  name: Giacomino
-  score: 24.5
+  AdQ:
+    Shining Revelry:
+      count: 49
+      score: 15.75
+  Giacomino:
+    Shining Revelry:
+      count: 54
+      score: 24.5
+  Sincerissima:
+    Shining Revelry:
+      count: 41
+      score: 19.75
+  TFDR:
+    Shining Revelry:
+      count: 37
+      score: 16.0
