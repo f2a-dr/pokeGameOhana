@@ -71,7 +71,7 @@ def printScores(filename):
             name = player
             points = scores['players'][player][expansion]['score']
             count = scores['players'][player][expansion]['count']
-            print('{:>15} {:^10} {:^10} {:^16.2}'.format(name, count, points, [points/count if count > 0 else 0.0][0]))
+            print('{:>15} {:^10} {:^10} {:^16.3}'.format(name, count, points, [points/count if count > 0 else 0.0][0]))
         print('\n')
 
     print('Classifica totale:')
