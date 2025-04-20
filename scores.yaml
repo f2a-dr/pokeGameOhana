@@ -1,7 +1,7 @@
 players:
   AdQ:
     Shining Revelry:
-      count: 72
+      count: 73
       score: 19.0
   Giacomino:
     Shining Revelry:
@@ -13,5 +13,5 @@ players:
       score: 29.5
   TFDR:
     Shining Revelry:
-      count: 53
-      score: 28.0
+      count: 54
+      score: 28.25
