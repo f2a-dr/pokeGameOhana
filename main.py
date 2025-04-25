@@ -22,7 +22,7 @@ def scoreCalculator():
     else:
         print('ERRORE: inserire `yes` o `no`.')
         return None
-    rareFlag = input('Sono stati trovate carte rare?[y/n] ')
+    rareFlag = input('Sono state trovate carte rare?[y/n] ')
     if rareFlag == 'yes' or rareFlag == 'y' or rareFlag == 'Yes' or rareFlag == 'Y':
         rareCards = input('Inserire le tipologie di carte rare, separate da una virgola:\nPossibili tipologie {}\n'.format([i for i in cardScores]))
         rareCards = rareCards.split(',')
