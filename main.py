@@ -95,8 +95,9 @@ def addScore(filename):
         return None
     else:
         expansions = list(scores['players'][nameSbusto].keys())
-        expSbusto = input('Quale espansione è stata sbustata?\nPossibili espansioni (attenzione alle maiuscole) {}\n'.format(expansions))
-        if expSbusto not in expansions:
+        expansions_reduced = [''.join(word[0] for word in exp.split()).upper() for exp in expansions]
+        expSbusto = input('Quale espansione è stata sbustata?\nPossibili espansioni (inserire il nome completo facendo attenzione alle maiuscole, o inserire le iniziali delle parole in maiuscolo) {}\n'.format(expansions))
+        if expSbusto not in expansions and expSbusto not in expansions_reduced:
             print('ERRORE: {} non è un espansione.'.format(expSbusto))
             return None
         else:
@@ -105,6 +106,7 @@ def addScore(filename):
                 print('ERRORE: i dati dello sbusto non sono stati inseriti correttamente.')
                 return None
             else:
+                expSbusto = expSbusto if expSbusto in expansions else expansions[expansions_reduced.index(expSbusto)]
                 scores['players'][nameSbusto][expSbusto]['count'] += 1
                 scores['players'][nameSbusto][expSbusto]['score'] += scoreSbusto
                 with open(filename, 'w') as f:
@@ -121,8 +123,9 @@ def addPesca(filename):
         return None
     else:
         expansions = list(scores['players'][namePescatore].keys())
-        expPescatore = input('Da quale espansione è stata effettuata la pesca?\nPossibili espansioni (attenzione alle maiuscole) {}\n'.format(expansions))
-        if expPescatore not in expansions:
+        expansions_reduced = [''.join(word[0] for word in exp.split()).upper() for exp in expansions]
+        expPescatore = input('Da quale espansione è stata effettuata la pesca?\nPossibili espansioni (inserire il nome completo facendo attenzione alle maiuscole, o inserire le iniziali delle parole in maiuscolo) {}\n'.format(expansions))
+        if expPescatore not in expansions and expPescatore not in expansions_reduced:
             print('ERRORE: {} non è un espansione.'.format(expPescatore))
             return None
         else:
@@ -136,6 +139,7 @@ def addPesca(filename):
                 print('ERRORE: i dati della pesca non sono stati inseriti correttamente.')
                 return None
             else:
+                expPescatore = expPescatore if expPescatore in expansions else expansions[expansions_reduced.index(expPescatore)]
                 scores['players'][namePescatore][expPescatore]['score'] += scorePescatore
                 with open(filename, 'w') as f:
                     yaml.dump(scores, f)

@@ -1,17 +1,25 @@
 players:
+  ALP:
+    Shining Revelry:
+      count: 0
+      score: 0
   AdQ:
     Shining Revelry:
-      count: 91
-      score: 25.0
+      count: 93
+      score: 26.5
   Giacomino:
     Shining Revelry:
-      count: 83
+      count: 84
       score: 32.0
+  Manu:
+    Shining Revelry:
+      count: 0
+      score: 0
   Sincerissima:
     Shining Revelry:
-      count: 70
-      score: 34.75
+      count: 72
+      score: 36.0
   TFDR:
     Shining Revelry:
-      count: 68
+      count: 69
       score: 34.25
