@@ -22,22 +22,22 @@ players:
       score: 33.25
   Manu:
     Celestial Guardians:
-      count: 33
-      score: 20.0
+      count: 37
+      score: 24.5
     Shining Revelry:
       count: 0
       score: 0
   Sincerissima:
     Celestial Guardians:
-      count: 3
-      score: 5.0
+      count: 14
+      score: 10.5
     Shining Revelry:
       count: 76
       score: 36.75
   TFDR:
     Celestial Guardians:
-      count: 1
-      score: 0
+      count: 4
+      score: 1.0
     Shining Revelry:
       count: 74
       score: 35.0
