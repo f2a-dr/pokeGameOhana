@@ -11,7 +11,7 @@ def readFile(filename):
 
 
 def scoreCalculator():
-    cardScores = {'olo': 0.5, 'ex': 1, 'FA': 1, 'exFA': 2, 'rainbow':2, 'shiny': 1, 'shiny-ex':2, 'immersive': 3, 'gold':5,}
+    cardScores = {'olo': 0.5, 'ex': 1, 'FA': 1, 'exFA': 2, 'rainbow':2, 'shiny': 1.5, 'shiny-ex':2, 'immersive': 3, 'gold':5,}
     scoreBusta = 0
     penalty = input('Sono stati trovati dei doppioni di carte comuni?[y/n] ')
     if penalty == 'yes' or penalty == 'y' or penalty == 'Yes' or penalty == 'Y':
@@ -115,7 +115,7 @@ def addScore(filename):
 
 def addPesca(filename):
     scores = readFile(filename)
-    cardScores = {'olo': 0.5, 'ex': 1, 'FA': 1, 'exFA': 2, 'rainbow':2, 'shiny': 1, 'shiny-ex':2, 'immersive': 3, 'gold':5,}
+    cardScores = {'olo': 0.5, 'ex': 1, 'FA': 1, 'exFA': 2, 'rainbow':2, 'shiny': 1.5, 'shiny-ex':2, 'immersive': 3, 'gold':5,}
     names = list(scores['players'].keys())
     namePescatore = input('Chi ha pescato?\nPossibili nomi (attenzione alle maiuscole) {}\n'.format(names))
     if namePescatore  not in names:
