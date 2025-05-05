@@ -1,8 +1,8 @@
 players:
   ALP:
     Celestial Guardians:
-      count: 40
-      score: 14.25
+      count: 49
+      score: 15.25
     Shining Revelry:
       count: 0
       score: 0
@@ -29,8 +29,8 @@ players:
       score: 0
   Sincerissima:
     Celestial Guardians:
-      count: 41
-      score: 19.5
+      count: 44
+      score: 20.0
     Shining Revelry:
       count: 76
       score: 36.75
