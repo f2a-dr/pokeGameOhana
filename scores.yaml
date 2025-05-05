@@ -1,15 +1,15 @@
 players:
   ALP:
     Celestial Guardians:
-      count: 36
-      score: 12.25
+      count: 38
+      score: 13.25
     Shining Revelry:
       count: 0
       score: 0
   AdQ:
     Celestial Guardians:
       count: 44
-      score: 16.75
+      score: 17.75
     Shining Revelry:
       count: 97
       score: 27.5
@@ -30,7 +30,7 @@ players:
   Sincerissima:
     Celestial Guardians:
       count: 41
-      score: 19.0
+      score: 19.5
     Shining Revelry:
       count: 76
       score: 36.75
