@@ -8,8 +8,8 @@ players:
       score: 0
   AdQ:
     Celestial Guardians:
-      count: 58
-      score: 24.25
+      count: 68
+      score: 28.5
     Shining Revelry:
       count: 97
       score: 27.5
@@ -36,8 +36,8 @@ players:
       score: 36.75
   TFDR:
     Celestial Guardians:
-      count: 43
-      score: 18.5
+      count: 50
+      score: 22.0
     Shining Revelry:
       count: 74
       score: 35.0
