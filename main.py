@@ -190,6 +190,7 @@ if __name__ == '__main__':
         elif add == 'y' or add == 'yes' or add == 'Yes' or add == 'Y':
             add = True
             addScore(filename)
+            print("Per favore, dopo aver inserito uno sbusto ricorda di fare commit e push per tenere aggiornato il file dei punteggi")
         elif add == 'bulk':
             add = True
             addScore(filename, bulk=True)
