@@ -15,7 +15,7 @@ players:
       score: 27.5
   Giacomino:
     Celestial Guardians:
-      count: 61
+      count: 62
       score: 21.5
     Shining Revelry:
       count: 89
@@ -29,14 +29,14 @@ players:
       score: 0
   Sincerissima:
     Celestial Guardians:
-      count: 80
-      score: 36.25
+      count: 81
+      score: 37.75
     Shining Revelry:
       count: 76
       score: 36.75
   TFDR:
     Celestial Guardians:
-      count: 76
+      count: 77
       score: 29.75
     Shining Revelry:
       count: 74
