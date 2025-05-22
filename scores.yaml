@@ -8,36 +8,36 @@ players:
       score: 0
   AdQ:
     Celestial Guardians:
-      count: 110
-      score: 41.5
+      count: 113
+      score: 44.0
     Shining Revelry:
       count: 97
       score: 27.5
   Giacomino:
     Celestial Guardians:
-      count: 78
-      score: 23.0
+      count: 80
+      score: 23.5
     Shining Revelry:
       count: 89
       score: 33.25
   Manu:
     Celestial Guardians:
-      count: 107
-      score: 57.0
+      count: 109
+      score: 58.5
     Shining Revelry:
       count: 0
       score: 0
   Sincerissima:
     Celestial Guardians:
-      count: 95
-      score: 42.25
+      count: 98
+      score: 44.0
     Shining Revelry:
       count: 76
       score: 36.75
   TFDR:
     Celestial Guardians:
-      count: 95
-      score: 44.25
+      count: 97
+      score: 43.75
     Shining Revelry:
       count: 74
       score: 35.0
