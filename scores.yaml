@@ -3,6 +3,9 @@ players:
     Celestial Guardians:
       count: 78
       score: 36.5
+    Extradimensional Crisis:
+      count: 0
+      score: 0
     Shining Revelry:
       count: 0
       score: 0
@@ -10,6 +13,9 @@ players:
     Celestial Guardians:
       count: 125
       score: 46.25
+    Extradimensional Crisis:
+      count: 0
+      score: 0
     Shining Revelry:
       count: 97
       score: 27.5
@@ -17,6 +23,9 @@ players:
     Celestial Guardians:
       count: 91
       score: 28.25
+    Extradimensional Crisis:
+      count: 1
+      score: 1.5
     Shining Revelry:
       count: 89
       score: 33.25
@@ -24,6 +33,9 @@ players:
     Celestial Guardians:
       count: 125
       score: 66.0
+    Extradimensional Crisis:
+      count: 1
+      score: 0
     Shining Revelry:
       count: 0
       score: 0
@@ -31,6 +43,9 @@ players:
     Celestial Guardians:
       count: 109
       score: 48.75
+    Extradimensional Crisis:
+      count: 0
+      score: 0
     Shining Revelry:
       count: 76
       score: 36.75
@@ -38,6 +53,9 @@ players:
     Celestial Guardians:
       count: 110
       score: 52.25
+    Extradimensional Crisis:
+      count: 0
+      score: 0
     Shining Revelry:
       count: 74
       score: 35.0
