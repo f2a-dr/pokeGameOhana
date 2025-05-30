@@ -172,6 +172,10 @@ if __name__ == '__main__':
 
     filename = "scores.yaml"
 
+    print("Marti e' molto brava.")
+
+    print("Non bisogna usare python per le cose non di lavoro!")    
+
     add = input("Vuoi inserire una nuova espansione?[y/N] ")
     if add == '' or add == 'n' or add == 'no' or add == 'No' or add == 'N':
         add = input("Vuoi inserire uno sbusto?[y/N/bulk] ")
