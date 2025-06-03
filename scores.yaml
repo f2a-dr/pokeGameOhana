@@ -34,7 +34,7 @@ players:
       count: 125
       score: 66.0
     Extradimensional Crisis:
-      count: 31
+      count: 32
       score: 15.5
     Shining Revelry:
       count: 0
@@ -44,8 +44,8 @@ players:
       count: 109
       score: 48.75
     Extradimensional Crisis:
-      count: 16
-      score: 8.75
+      count: 17
+      score: 10.25
     Shining Revelry:
       count: 76
       score: 36.75
@@ -54,8 +54,8 @@ players:
       count: 110
       score: 52.75
     Extradimensional Crisis:
-      count: 19
-      score: 6.0
+      count: 21
+      score: 6.25
     Shining Revelry:
       count: 74
       score: 35.0
