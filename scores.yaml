@@ -4,7 +4,7 @@ players:
       count: 78
       score: 36.5
     Extradimensional Crisis:
-      count: 25
+      count: 26
       score: 14.75
     Shining Revelry:
       count: 0
@@ -14,8 +14,8 @@ players:
       count: 125
       score: 46.25
     Extradimensional Crisis:
-      count: 22
-      score: 11.75
+      count: 23
+      score: 13.0
     Shining Revelry:
       count: 97
       score: 27.5
@@ -34,8 +34,8 @@ players:
       count: 125
       score: 66.0
     Extradimensional Crisis:
-      count: 37
-      score: 16.0
+      count: 38
+      score: 17.5
     Shining Revelry:
       count: 0
       score: 0
@@ -51,10 +51,10 @@ players:
       score: 36.75
   TFDR:
     Celestial Guardians:
-      count: 111
+      count: 114
       score: 53.75
     Extradimensional Crisis:
-      count: 26
+      count: 27
       score: 7.25
     Shining Revelry:
       count: 74
