@@ -4,7 +4,7 @@ players:
       count: 78
       score: 36.5
     Eevee Grove:
-      count: 24
+      count: 25
       score: 6.5
     Extradimensional Crisis:
       count: 30
@@ -43,8 +43,8 @@ players:
       count: 130
       score: 67.0
     Eevee Grove:
-      count: 30
-      score: 14.0
+      count: 32
+      score: 14.5
     Extradimensional Crisis:
       count: 61
       score: 31.25
@@ -72,8 +72,8 @@ players:
       count: 29
       score: 11.5
     Extradimensional Crisis:
-      count: 59
-      score: 16.75
+      count: 60
+      score: 17.0
     Shining Revelry:
       count: 74
       score: 35.0
