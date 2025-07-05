@@ -17,8 +17,8 @@ players:
       count: 125
       score: 46.25
     Eevee Grove:
-      count: 30
-      score: 10.75
+      count: 31
+      score: 12.0
     Extradimensional Crisis:
       count: 53
       score: 18.5
@@ -70,7 +70,7 @@ players:
       score: 55.5
     Eevee Grove:
       count: 34
-      score: 14.5
+      score: 15.25
     Extradimensional Crisis:
       count: 60
       score: 17.0
