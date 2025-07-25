@@ -14,14 +14,14 @@ players:
       score: 0
   AdQ:
     Celestial Guardians:
-      count: 125
-      score: 46.25
+      count: 127
+      score: 46.0
     Eevee Grove:
       count: 52
-      score: 17.0
+      score: 17.25
     Extradimensional Crisis:
-      count: 66
-      score: 20.5
+      count: 67
+      score: 21.5
     Shining Revelry:
       count: 97
       score: 27.5
@@ -30,8 +30,8 @@ players:
       count: 91
       score: 28.25
     Eevee Grove:
-      count: 58
-      score: 29.25
+      count: 60
+      score: 30.25
     Extradimensional Crisis:
       count: 55
       score: 22.75
@@ -43,8 +43,8 @@ players:
       count: 130
       score: 67.0
     Eevee Grove:
-      count: 85
-      score: 33.75
+      count: 86
+      score: 34.25
     Extradimensional Crisis:
       count: 61
       score: 31.25
@@ -56,8 +56,8 @@ players:
       count: 109
       score: 48.75
     Eevee Grove:
-      count: 64
-      score: 30.5
+      count: 65
+      score: 32.5
     Extradimensional Crisis:
       count: 54
       score: 31.25
@@ -66,10 +66,10 @@ players:
       score: 36.75
   TFDR:
     Celestial Guardians:
-      count: 128
-      score: 57.5
+      count: 129
+      score: 57.0
     Eevee Grove:
-      count: 63
+      count: 64
       score: 22.0
     Extradimensional Crisis:
       count: 64
