@@ -101,8 +101,8 @@ def addScore(filename, bulk=False):
         return None
     else:
         expansions = list(scores['players'][nameSbusto].keys())
-        expansions_reduced = [''.join(word[0] for word in exp.split()).upper() for exp in expansions]
-        expSbusto = input('Quale espansione è stata sbustata?\nPossibili espansioni (inserire il nome completo facendo attenzione alle maiuscole, o inserire le iniziali delle parole in maiuscolo) {}\n'.format(expansions))
+        expansions_reduced = [''.join([char for char in exp if char.isupper()]) for exp in expansions]
+        expSbusto = input('Quale espansione è stata sbustata?\nPossibili espansioni (inserire il nome completo facendo attenzione alle maiuscole, o inserire solo le lettere maiuscole) {}\n'.format(expansions))
         if expSbusto not in expansions and expSbusto not in expansions_reduced:
             print('ERRORE: {} non è un espansione.'.format(expSbusto))
             return None
@@ -132,8 +132,8 @@ def addPesca(filename):
         return None
     else:
         expansions = list(scores['players'][namePescatore].keys())
-        expansions_reduced = [''.join(word[0] for word in exp.split()).upper() for exp in expansions]
-        expPescatore = input('Da quale espansione è stata effettuata la pesca?\nPossibili espansioni (inserire il nome completo facendo attenzione alle maiuscole, o inserire le iniziali delle parole in maiuscolo) {}\n'.format(expansions))
+        expansions_reduced = [''.join([char for char in exp if char.isupper()]) for exp in expansions]
+        expPescatore = input('Da quale espansione è stata effettuata la pesca?\nPossibili espansioni (inserire il nome completo facendo attenzione alle maiuscole, o inserire solo le lettere maiuscole) {}\n'.format(expansions))
         if expPescatore not in expansions and expPescatore not in expansions_reduced:
             print('ERRORE: {} non è un espansione.'.format(expPescatore))
             return None

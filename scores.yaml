@@ -12,6 +12,9 @@ players:
     Shining Revelry:
       count: 0
       score: 0
+    Wisdom of Sea and Sky:
+      count: 0
+      score: 0
   AdQ:
     Celestial Guardians:
       count: 127
@@ -25,6 +28,9 @@ players:
     Shining Revelry:
       count: 97
       score: 27.5
+    Wisdom of Sea and Sky:
+      count: 0
+      score: 0
   Giacomino:
     Celestial Guardians:
       count: 91
@@ -38,6 +44,9 @@ players:
     Shining Revelry:
       count: 89
       score: 33.25
+    Wisdom of Sea and Sky:
+      count: 0
+      score: 0
   Manu:
     Celestial Guardians:
       count: 130
@@ -49,6 +58,9 @@ players:
       count: 61
       score: 31.25
     Shining Revelry:
+      count: 0
+      score: 0
+    Wisdom of Sea and Sky:
       count: 0
       score: 0
   Sincerissima:
@@ -64,6 +76,9 @@ players:
     Shining Revelry:
       count: 76
       score: 36.75
+    Wisdom of Sea and Sky:
+      count: 0
+      score: 0
   TFDR:
     Celestial Guardians:
       count: 129
@@ -77,3 +92,6 @@ players:
     Shining Revelry:
       count: 74
       score: 35.0
+    Wisdom of Sea and Sky:
+      count: 0
+      score: 0
