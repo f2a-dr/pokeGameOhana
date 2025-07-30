@@ -17,8 +17,8 @@ players:
       score: 0
   AdQ:
     Celestial Guardians:
-      count: 132
-      score: 46.75
+      count: 133
+      score: 47.5
     Eevee Grove:
       count: 52
       score: 17.25
@@ -36,8 +36,8 @@ players:
       count: 93
       score: 28.5
     Eevee Grove:
-      count: 61
-      score: 32.75
+      count: 62
+      score: 33.0
     Extradimensional Crisis:
       count: 55
       score: 22.75
@@ -52,8 +52,8 @@ players:
       count: 130
       score: 67.0
     Eevee Grove:
-      count: 90
-      score: 34.5
+      count: 91
+      score: 35.0
     Extradimensional Crisis:
       count: 61
       score: 31.25
@@ -68,8 +68,8 @@ players:
       count: 109
       score: 48.75
     Eevee Grove:
-      count: 71
-      score: 34.0
+      count: 73
+      score: 34.25
     Extradimensional Crisis:
       count: 54
       score: 31.25
