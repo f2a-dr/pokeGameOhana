@@ -13,8 +13,8 @@ players:
       count: 0
       score: 0
     Wisdom of Sea and Sky:
-      count: 33
-      score: 15.75
+      count: 35
+      score: 17.25
   AdQ:
     Celestial Guardians:
       count: 133
@@ -29,8 +29,8 @@ players:
       count: 97
       score: 27.5
     Wisdom of Sea and Sky:
-      count: 104
-      score: 51.5
+      count: 111
+      score: 53.25
   Giacomino:
     Celestial Guardians:
       count: 93
@@ -45,8 +45,8 @@ players:
       count: 89
       score: 33.25
     Wisdom of Sea and Sky:
-      count: 65
-      score: 35.5
+      count: 74
+      score: 38.0
   Manu:
     Celestial Guardians:
       count: 130
@@ -61,8 +61,8 @@ players:
       count: 0
       score: 0
     Wisdom of Sea and Sky:
-      count: 78
-      score: 28.0
+      count: 86
+      score: 31.75
   Sincerissima:
     Celestial Guardians:
       count: 109
@@ -77,8 +77,8 @@ players:
       count: 76
       score: 36.75
     Wisdom of Sea and Sky:
-      count: 67
-      score: 44.75
+      count: 72
+      score: 49.25
   TFDR:
     Celestial Guardians:
       count: 132
@@ -93,5 +93,5 @@ players:
       count: 74
       score: 35.0
     Wisdom of Sea and Sky:
-      count: 92
-      score: 38.75
+      count: 99
+      score: 43.25
