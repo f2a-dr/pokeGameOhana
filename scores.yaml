@@ -10,8 +10,8 @@ players:
       count: 30
       score: 15.75
     Secluded Springs:
-      count: 22
-      score: 15.5
+      count: 23
+      score: 16.0
     Shining Revelry:
       count: 0
       score: 0
@@ -29,8 +29,8 @@ players:
       count: 67
       score: 21.5
     Secluded Springs:
-      count: 37
-      score: 13.25
+      count: 44
+      score: 15.75
     Shining Revelry:
       count: 97
       score: 27.5
@@ -48,8 +48,8 @@ players:
       count: 55
       score: 22.75
     Secluded Springs:
-      count: 42
-      score: 14.5
+      count: 49
+      score: 17.5
     Shining Revelry:
       count: 89
       score: 33.25
@@ -86,8 +86,8 @@ players:
       count: 54
       score: 31.25
     Secluded Springs:
-      count: 36
-      score: 21.0
+      count: 44
+      score: 22.5
     Shining Revelry:
       count: 76
       score: 36.75
@@ -105,8 +105,8 @@ players:
       count: 64
       score: 17.5
     Secluded Springs:
-      count: 23
-      score: 13.5
+      count: 36
+      score: 18.5
     Shining Revelry:
       count: 74
       score: 35.0
