@@ -29,8 +29,8 @@ players:
       count: 67
       score: 21.5
     Secluded Springs:
-      count: 47
-      score: 17.25
+      count: 55
+      score: 20.0
     Shining Revelry:
       count: 97
       score: 27.5
@@ -48,8 +48,8 @@ players:
       count: 55
       score: 22.75
     Secluded Springs:
-      count: 51
-      score: 18.5
+      count: 61
+      score: 20.25
     Shining Revelry:
       count: 89
       score: 33.25
@@ -86,14 +86,14 @@ players:
       count: 54
       score: 31.25
     Secluded Springs:
-      count: 46
-      score: 22.5
+      count: 57
+      score: 28.5
     Shining Revelry:
       count: 76
       score: 36.75
     Wisdom of Sea and Sky:
       count: 96
-      score: 62.25
+      score: 63.25
   TFDR:
     Celestial Guardians:
       count: 132
@@ -105,8 +105,8 @@ players:
       count: 64
       score: 17.5
     Secluded Springs:
-      count: 36
-      score: 18.5
+      count: 50
+      score: 25.75
     Shining Revelry:
       count: 74
       score: 35.0
