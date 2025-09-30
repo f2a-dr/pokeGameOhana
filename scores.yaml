@@ -29,14 +29,14 @@ players:
       count: 67
       score: 21.5
     Secluded Springs:
-      count: 58
+      count: 61
       score: 25.75
     Shining Revelry:
       count: 97
       score: 27.5
     Wisdom of Sea and Sky:
-      count: 131
-      score: 62.5
+      count: 140
+      score: 64.75
   Giacomino:
     Celestial Guardians:
       count: 93
@@ -48,8 +48,8 @@ players:
       count: 55
       score: 22.75
     Secluded Springs:
-      count: 63
-      score: 22.25
+      count: 70
+      score: 26.25
     Shining Revelry:
       count: 89
       score: 33.25
@@ -83,11 +83,11 @@ players:
       count: 73
       score: 34.25
     Extradimensional Crisis:
-      count: 54
+      count: 55
       score: 31.25
     Secluded Springs:
-      count: 57
-      score: 28.5
+      count: 64
+      score: 28.0
     Shining Revelry:
       count: 76
       score: 36.75
@@ -100,13 +100,13 @@ players:
       score: 58.75
     Eevee Grove:
       count: 64
-      score: 22.0
+      score: 22.5
     Extradimensional Crisis:
       count: 64
       score: 17.5
     Secluded Springs:
-      count: 50
-      score: 25.75
+      count: 65
+      score: 33.75
     Shining Revelry:
       count: 74
       score: 35.0
