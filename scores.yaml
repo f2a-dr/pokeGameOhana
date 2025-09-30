@@ -3,6 +3,9 @@ players:
     Celestial Guardians:
       count: 78
       score: 36.5
+    Deluxe Ex:
+      count: 0
+      score: 0
     Eevee Grove:
       count: 43
       score: 14.5
@@ -22,6 +25,9 @@ players:
     Celestial Guardians:
       count: 133
       score: 47.5
+    Deluxe Ex:
+      count: 1
+      score: 0.5
     Eevee Grove:
       count: 52
       score: 17.25
@@ -41,6 +47,9 @@ players:
     Celestial Guardians:
       count: 93
       score: 28.5
+    Deluxe Ex:
+      count: 12
+      score: 11.75
     Eevee Grove:
       count: 62
       score: 33.0
@@ -60,6 +69,9 @@ players:
     Celestial Guardians:
       count: 130
       score: 67.0
+    Deluxe Ex:
+      count: 11
+      score: 9.5
     Eevee Grove:
       count: 91
       score: 35.0
@@ -79,6 +91,9 @@ players:
     Celestial Guardians:
       count: 109
       score: 48.75
+    Deluxe Ex:
+      count: 8
+      score: 10.25
     Eevee Grove:
       count: 73
       score: 34.25
@@ -98,6 +113,9 @@ players:
     Celestial Guardians:
       count: 132
       score: 58.75
+    Deluxe Ex:
+      count: 2
+      score: 4.75
     Eevee Grove:
       count: 64
       score: 22.5
