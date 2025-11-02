@@ -3,15 +3,15 @@ players:
     Celestial Guardians:
       count: 78
       score: 36.5
-    Deluxe Ex:
-      count: 0
-      score: 0
     Eevee Grove:
       count: 43
       score: 14.5
     Extradimensional Crisis:
       count: 30
       score: 15.75
+    Mega Rising:
+      count: 0
+      score: 0
     Secluded Springs:
       count: 25
       score: 16.5
@@ -25,15 +25,15 @@ players:
     Celestial Guardians:
       count: 133
       score: 47.5
-    Deluxe Ex:
-      count: 13
-      score: 11.5
     Eevee Grove:
       count: 52
       score: 17.25
     Extradimensional Crisis:
       count: 67
       score: 21.5
+    Mega Rising:
+      count: 40
+      score: 28.25
     Secluded Springs:
       count: 61
       score: 25.75
@@ -47,15 +47,15 @@ players:
     Celestial Guardians:
       count: 93
       score: 28.5
-    Deluxe Ex:
-      count: 14
-      score: 15.25
     Eevee Grove:
       count: 62
       score: 33.0
     Extradimensional Crisis:
       count: 55
       score: 22.75
+    Mega Rising:
+      count: 29
+      score: 15.5
     Secluded Springs:
       count: 70
       score: 26.25
@@ -69,15 +69,15 @@ players:
     Celestial Guardians:
       count: 130
       score: 67.0
-    Deluxe Ex:
-      count: 21
-      score: 19.0
     Eevee Grove:
       count: 91
       score: 35.0
     Extradimensional Crisis:
       count: 61
       score: 31.25
+    Mega Rising:
+      count: 38
+      score: 18.0
     Secluded Springs:
       count: 42
       score: 20.0
@@ -90,16 +90,16 @@ players:
   Sincerissima:
     Celestial Guardians:
       count: 109
-      score: 48.75
-    Deluxe Ex:
-      count: 30
-      score: 31.0
+      score: 49.75
     Eevee Grove:
       count: 73
       score: 34.25
     Extradimensional Crisis:
       count: 55
       score: 31.25
+    Mega Rising:
+      count: 34
+      score: 20.0
     Secluded Springs:
       count: 64
       score: 28.0
@@ -111,17 +111,17 @@ players:
       score: 63.25
   TFDR:
     Celestial Guardians:
-      count: 132
-      score: 58.75
-    Deluxe Ex:
-      count: 13
-      score: 17.25
+      count: 152
+      score: 65.5
     Eevee Grove:
       count: 64
       score: 22.5
     Extradimensional Crisis:
       count: 64
       score: 17.5
+    Mega Rising:
+      count: 36
+      score: 18.25
     Secluded Springs:
       count: 65
       score: 33.75
