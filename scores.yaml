@@ -3,6 +3,9 @@ players:
     Celestial Guardians:
       count: 78
       score: 36.5
+    Crimson Blaze:
+      count: 0
+      score: 0
     Eevee Grove:
       count: 43
       score: 14.5
@@ -25,6 +28,9 @@ players:
     Celestial Guardians:
       count: 133
       score: 47.5
+    Crimson Blaze:
+      count: 0
+      score: 0
     Eevee Grove:
       count: 52
       score: 17.25
@@ -32,8 +38,8 @@ players:
       count: 67
       score: 21.5
     Mega Rising:
-      count: 129
-      score: 68.0
+      count: 150
+      score: 75.0
     Secluded Springs:
       count: 61
       score: 25.75
@@ -47,6 +53,9 @@ players:
     Celestial Guardians:
       count: 93
       score: 28.5
+    Crimson Blaze:
+      count: 0
+      score: 0
     Eevee Grove:
       count: 62
       score: 33.0
@@ -54,8 +63,8 @@ players:
       count: 55
       score: 22.75
     Mega Rising:
-      count: 114
-      score: 56.0
+      count: 135
+      score: 65.0
     Secluded Springs:
       count: 70
       score: 26.25
@@ -69,6 +78,9 @@ players:
     Celestial Guardians:
       count: 130
       score: 67.0
+    Crimson Blaze:
+      count: 0
+      score: 0
     Eevee Grove:
       count: 91
       score: 35.0
@@ -76,8 +88,8 @@ players:
       count: 61
       score: 31.25
     Mega Rising:
-      count: 128
-      score: 53.0
+      count: 142
+      score: 59.25
     Secluded Springs:
       count: 42
       score: 20.0
@@ -91,6 +103,9 @@ players:
     Celestial Guardians:
       count: 109
       score: 49.75
+    Crimson Blaze:
+      count: 0
+      score: 0
     Eevee Grove:
       count: 73
       score: 34.25
@@ -98,8 +113,8 @@ players:
       count: 55
       score: 31.25
     Mega Rising:
-      count: 100
-      score: 46.0
+      count: 118
+      score: 54.75
     Secluded Springs:
       count: 64
       score: 28.0
@@ -113,6 +128,9 @@ players:
     Celestial Guardians:
       count: 152
       score: 65.5
+    Crimson Blaze:
+      count: 0
+      score: 0
     Eevee Grove:
       count: 64
       score: 22.5
@@ -120,8 +138,8 @@ players:
       count: 64
       score: 17.5
     Mega Rising:
-      count: 129
-      score: 64.75
+      count: 150
+      score: 74.5
     Secluded Springs:
       count: 65
       score: 33.75
