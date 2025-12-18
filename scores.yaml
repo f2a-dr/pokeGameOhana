@@ -29,8 +29,8 @@ players:
       count: 133
       score: 47.5
     Crimson Blaze:
-      count: 0
-      score: 0
+      count: 4
+      score: 2.0
     Eevee Grove:
       count: 52
       score: 17.25
@@ -54,8 +54,8 @@ players:
       count: 93
       score: 28.5
     Crimson Blaze:
-      count: 0
-      score: 0
+      count: 13
+      score: 3.0
     Eevee Grove:
       count: 62
       score: 33.0
@@ -79,8 +79,8 @@ players:
       count: 130
       score: 67.0
     Crimson Blaze:
-      count: 0
-      score: 0
+      count: 15
+      score: 10.5
     Eevee Grove:
       count: 91
       score: 35.0
@@ -104,8 +104,8 @@ players:
       count: 109
       score: 49.75
     Crimson Blaze:
-      count: 0
-      score: 0
+      count: 5
+      score: 1.5
     Eevee Grove:
       count: 73
       score: 34.25
@@ -129,7 +129,7 @@ players:
       count: 152
       score: 65.5
     Crimson Blaze:
-      count: 0
+      count: 2
       score: 0
     Eevee Grove:
       count: 64
