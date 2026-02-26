@@ -18,6 +18,9 @@ players:
     Mega Rising:
       count: 0
       score: 0
+    Paldean Wonders:
+      count: 0
+      score: 0
     Secluded Springs:
       count: 25
       score: 16.5
@@ -41,11 +44,14 @@ players:
       count: 67
       score: 21.5
     Fantastical Parade:
-      count: 54
-      score: 22.75
+      count: 114
+      score: 39.0
     Mega Rising:
       count: 173
       score: 85.5
+    Paldean Wonders:
+      count: 0
+      score: 0
     Secluded Springs:
       count: 61
       score: 25.75
@@ -69,11 +75,14 @@ players:
       count: 55
       score: 22.75
     Fantastical Parade:
-      count: 34
-      score: 20.25
+      count: 76
+      score: 55.25
     Mega Rising:
       count: 162
       score: 77.75
+    Paldean Wonders:
+      count: 0
+      score: 0
     Secluded Springs:
       count: 70
       score: 26.25
@@ -97,11 +106,14 @@ players:
       count: 61
       score: 31.25
     Fantastical Parade:
-      count: 55
-      score: 27.25
+      count: 100
+      score: 44.0
     Mega Rising:
       count: 147
       score: 65.0
+    Paldean Wonders:
+      count: 0
+      score: 0
     Secluded Springs:
       count: 42
       score: 20.0
@@ -125,11 +137,14 @@ players:
       count: 55
       score: 31.25
     Fantastical Parade:
-      count: 62
-      score: 24.25
+      count: 104
+      score: 47.0
     Mega Rising:
       count: 170
       score: 78.5
+    Paldean Wonders:
+      count: 0
+      score: 0
     Secluded Springs:
       count: 64
       score: 28.0
@@ -153,11 +168,14 @@ players:
       count: 64
       score: 17.5
     Fantastical Parade:
-      count: 53
-      score: 28.0
+      count: 107
+      score: 56.25
     Mega Rising:
       count: 177
       score: 86.75
+    Paldean Wonders:
+      count: 0
+      score: 0
     Secluded Springs:
       count: 65
       score: 33.75
